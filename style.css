@@ -1,0 +1,430 @@
+h3 {
+  font-family: "Montserrat", sans-serif;
+}
+p {
+  font-family: "Baloo Tamma 2", cursive;
+}
+.active {
+  color: #fcaa28 !important;
+}
+.fh5co-loader {
+  position: fixed;
+  left: 0px;
+  top: 0px;
+  width: 100%;
+  height: 100%;
+  z-index: 9999;
+  background: url(./img/ICONS/load.gif) center no-repeat #fff;
+}
+.button__service {
+  font-size: 10px;
+}
+.kartu {
+  width: 271px;
+  border-radius: 20px;
+  background: #eee;
+  height: 207px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+}
+
+.kartu > img {
+  width: 60px;
+}
+.kartu > button {
+  width: 133px;
+  height: 10px;
+  line-height: 20px;
+}
+.kartu h3 {
+  font-size: 17px;
+}
+.kartu p {
+  font-size: 13px;
+}
+footer {
+  background-color: #ec9b1d;
+  width: 100%;
+  margin-top: 5em;
+}
+.container__sosmed {
+  display: flex;
+  justify-content: center;
+}
+.container__sosmed a {
+  margin: 20px;
+}
+.svg__saya {
+  margin-bottom: -223px;
+}
+.svg__skill {
+  margin-bottom: -223px;
+}
+.svg__service {
+  margin-bottom: -223px;
+}
+
+@media (min-width: 1200px) {
+  /* sertifikat */
+  .text__serti {
+    color: #eaeaea;
+    position: absolute;
+    top: 10%;
+    left: 40%;
+  }
+  .my__rowSerti {
+    margin-top: 100px;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 450px;
+    height: 300px;
+  }
+  .recent {
+    position: absolute;
+    top: 15%;
+    left: 32%;
+    font-size: 20px;
+  }
+  .svg__saya {
+    margin-bottom: -132px;
+  }
+  .text__skill {
+    font-size: 30px;
+  }
+  .textP__skill {
+    font-size: 12px;
+  }
+  .skil {
+    width: 401px;
+  }
+  .konten {
+    margin-top: 10px;
+  }
+  .konten__gambar {
+    width: 200px;
+  }
+  .kolom__kanan {
+    margin-left: -171px;
+    margin-top: 4px;
+  }
+  .kolom__kiri {
+    margin-top: -81px;
+    margin-left: 104px;
+  }
+  .html img {
+    width: 192px;
+    height: 108px;
+    position: absolute;
+    bottom: -4px;
+    left: 8%;
+  }
+
+  .rs img {
+    width: 166px;
+    height: 85px;
+    position: absolute;
+    bottom: 214px;
+    left: 6%;
+  }
+  .vue img {
+    width: 201px;
+    height: 83px;
+    position: absolute;
+    bottom: 110px;
+    left: 9%;
+  }
+  .ts img {
+    width: 170px;
+    height: 91px;
+    position: absolute;
+    top: 3%;
+    left: 12%;
+  }
+  .ps img {
+    width: 162px;
+    height: 94px;
+    position: absolute;
+    top: -9%;
+    right: 32%;
+  }
+  .js img {
+    width: 223px;
+    height: 75px;
+    position: absolute;
+    top: 7%;
+    right: 9%;
+  }
+
+  .pwa img {
+    width: 182px;
+    height: 58px;
+    position: absolute;
+    top: 42%;
+    right: 4%;
+  }
+  .react img {
+    width: 191px;
+    height: 110px;
+    position: absolute;
+    bottom: 24%;
+    right: 12%;
+  }
+  .css img {
+    width: 197px;
+    height: 132px;
+    position: absolute;
+    bottom: -10%;
+    right: 11%;
+  }
+}
+@media (min-width: 1600px) {
+  .svg__skill {
+    margin-bottom: -170px;
+  }
+  .my__svg {
+    margin-top: -217px;
+  }
+  /* sertifikat */
+
+  .text__serti {
+    color: #eaeaea;
+    position: absolute;
+    top: 15%;
+    left: 42%;
+    font-size: 30px;
+  }
+  .my__rowSerti {
+    margin-top: 200px;
+  }
+  .swiper-container {
+    width: 100%;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 600px;
+    height: 400px;
+  }
+  .recent {
+    position: absolute;
+    top: 15%;
+    left: 40%;
+    font-size: 20px;
+  }
+  .skil {
+    width: 550px;
+  }
+  .konten__gambar {
+    width: 300px;
+  }
+  .html img {
+    width: 207px;
+    height: 108px;
+    position: absolute;
+    bottom: 14px;
+    left: 2%;
+  }
+  .rs img {
+    width: 161px;
+    height: 95px;
+    position: absolute;
+    bottom: 292px;
+    left: -2%;
+  }
+  .vue img {
+    width: 258px;
+    height: 86px;
+    position: absolute;
+    bottom: 179px;
+    left: -3%;
+  }
+  .ts img {
+    width: 170px;
+    height: 91px;
+    position: absolute;
+    top: 8%;
+    left: 5%;
+  }
+  .ps img {
+    width: 203px;
+    height: 122px;
+    position: absolute;
+    top: -7%;
+    right: 31%;
+  }
+  .js img {
+    width: 223px;
+    height: 75px;
+    position: absolute;
+    top: 12%;
+    right: 4%;
+  }
+
+  .pwa img {
+    width: 193px;
+    height: 61px;
+    position: absolute;
+    top: 44%;
+    right: -5%;
+  }
+  .react img {
+    width: 242px;
+    height: 110px;
+    position: absolute;
+    bottom: 26%;
+    right: 0%;
+  }
+
+  .css img {
+    width: 203px;
+    height: 123px;
+    position: absolute;
+    bottom: -1%;
+    right: 6%;
+  }
+}
+@media (max-width: 576px) {
+  .svg__sertifikat {
+    margin-top: 185px;
+  }
+  .text__serti {
+    color: #eaeaea;
+    position: absolute;
+    top: 15%;
+    left: 18%;
+  }
+  .my__rowSerti {
+    margin-top: 100px;
+  }
+  .swiper-container {
+    width: 100%;
+    padding-top: 50px;
+    padding-bottom: 50px;
+  }
+
+  .swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 299px;
+    height: 202px;
+  }
+  .container__sosmed img {
+    width: 57px !important;
+  }
+
+  .container__sosmed a {
+    margin: 1px;
+  }
+  .container__sosmed a p {
+    font-size: 10px;
+    text-align: center;
+  }
+  .recent {
+    position: absolute;
+    top: 15%;
+    left: 4%;
+    font-size: 20px;
+  }
+  .img_profileMobile {
+    width: 200px;
+  }
+  .text__skill {
+    font-size: 17px;
+  }
+  .textP__skill {
+    font-size: 12px;
+  }
+  .skil {
+    display: none !important;
+  }
+  .svg__saya {
+    margin-bottom: -157px;
+  }
+  .svg__skill {
+    margin-bottom: -186px;
+  }
+  .svg__service {
+    margin-bottom: -200px;
+  }
+  .html img {
+    display: none;
+  }
+  .rs img {
+    display: none;
+  }
+  .vue img {
+    display: none;
+  }
+  .ts img {
+    display: none;
+  }
+  .ps img {
+    display: none;
+  }
+  .js img {
+    display: none;
+  }
+
+  .pwa img {
+    display: none;
+  }
+  .react img {
+    display: none;
+  }
+  .css img {
+    display: none;
+  }
+  .context {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -49px;
+  }
+  .context p {
+    text-align: center;
+  }
+
+  .kartu {
+    width: 271px;
+    border-radius: 20px;
+    background: #eee;
+    height: 117px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 16px;
+  }
+
+  .kartu > img {
+    width: 40px;
+  }
+  .kartu > button {
+    display: none;
+  }
+  .kartu h3 {
+    font-size: 11px;
+  }
+  .kartu p {
+    font-size: 10px;
+  }
+  .kolom__kiri {
+    margin-left: 66px;
+  }
+  .kolom__kanan {
+    margin-top: 10px;
+  }
+  .skill__mobile {
+    margin-top: -92px;
+  }
+}
