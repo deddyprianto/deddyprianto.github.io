@@ -428,3 +428,17 @@ footer {
     margin-top: -92px;
   }
 }
+@media (max-width: 414px) {
+  .svg__saya {
+    margin-top: 66px;
+  }
+  .svg__service {
+    margin-top: 13px;
+  }
+  .svg__skill {
+    margin-top: 67px;
+  }
+  .svg__sertifikat {
+    margin-top: 256px;
+  }
+}
