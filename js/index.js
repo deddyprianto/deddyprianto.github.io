@@ -6,7 +6,7 @@ $(document).ready(function () {
   const loaderPage = function () {
     setInterval(function () {
       $(".fh5co-loader").fadeOut("slow");
-    }, 10000);
+    }, 10);
   };
   loaderPage();
 });

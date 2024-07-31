@@ -59,7 +59,7 @@ footer {
   margin-bottom: -223px;
 }
 .svg__skill {
-  margin-bottom: -223px;
+  margin-bottom: -225px;
 }
 .svg__service {
   margin-bottom: -223px;
@@ -301,7 +301,7 @@ footer {
     color: #eaeaea;
     position: absolute;
     top: 15%;
-    left: 18%;
+    left: 11%;
   }
   .my__rowSerti {
     margin-top: 100px;
@@ -436,7 +436,7 @@ footer {
     margin-top: 13px;
   }
   .svg__skill {
-    margin-top: 67px;
+    margin-top: 96px;
   }
   .svg__sertifikat {
     margin-top: 256px;
