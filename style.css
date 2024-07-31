@@ -188,7 +188,8 @@ footer {
 }
 @media (min-width: 1600px) {
   .svg__skill {
-    margin-bottom: -170px;
+    position: sticky;
+    bottom: 0;
   }
   .my__svg {
     margin-top: -217px;
@@ -295,16 +296,14 @@ footer {
 }
 @media (max-width: 576px) {
   .svg__sertifikat {
-    margin-top: 185px;
+    position: sticky;
+    bottom: 0;
   }
   .text__serti {
     color: #eaeaea;
     position: absolute;
     top: 15%;
     left: 11%;
-  }
-  .my__rowSerti {
-    margin-top: 100px;
   }
   .swiper-container {
     width: 100%;
@@ -351,7 +350,8 @@ footer {
     margin-bottom: -157px;
   }
   .svg__skill {
-    margin-bottom: -186px;
+    position: sticky;
+    bottom: 0;
   }
   .svg__service {
     margin-bottom: -200px;
@@ -436,7 +436,8 @@ footer {
     margin-top: 13px;
   }
   .svg__skill {
-    margin-top: 96px;
+    position: sticky;
+    bottom: 0;
   }
   .svg__sertifikat {
     margin-top: 256px;
